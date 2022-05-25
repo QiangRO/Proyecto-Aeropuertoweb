@@ -109,6 +109,7 @@ if(isset($_SESSION['usuario'])){
               <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
+          </li>
       </nav><!-- .navbar -->
       <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a>
       <!--<a href="cerrar.php" class="get-started-btn scrollto">Cerrar Sesión</a>-->
@@ -123,7 +124,7 @@ if(isset($_SESSION['usuario'])){
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>AEROPUERTO INTERNACIONAL DE ACAPULCO<span>.</span></h1>
+          <h1>AEROPUERTO INTERNACIONAL DE EL ALTO<span>.</span></h1>
           <h2>AEROPUERTO INTERNACIONAL GENERAL JUAN N. ÁLVAREZ</h2>
         </div>
       </div>
@@ -145,10 +146,9 @@ if(isset($_SESSION['usuario'])){
               <div class="col-md-12">
               </div>
               <div class="col-md-12">
-                <p style="color: white;">Copyright &copy; 2021 Todos los derechos reservador Aeropuerto Internacional de
-                  Acapulco
+                <p style="color: white;">Copyright &copy; 2021 Todos los derechos reservador Aeropuerto internacional de El Alto
 
-                  | Devoloped: <em>Armando David Camacho Merino</em></p>
+                  | Devoloped: <em>PERSONA X</em></p>
               </div>
             </div>
           </div>

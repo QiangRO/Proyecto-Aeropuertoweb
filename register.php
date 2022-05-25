@@ -16,7 +16,7 @@
 
 	<body>
 
-		<div class="wrapper" style="background-image: url('Assets3/images/Cabina.jpg');">
+		<div class="wrapper" style="background-image: url('./Assets3/images/fondo.jpg');">
 			<div class="inner">
 				<div class="image-holder">
 					<br>
@@ -24,7 +24,7 @@
 					<br>
 					<br>
 					<br>
-					<img src="assets3/images/pilota.jpg" alt="">
+					<img src="./Assets3/images/Aterrizaje.jpg" alt="">
 					<br>
 					<br>
 					<br>
@@ -58,7 +58,7 @@
 						<select name="cargo" id="" class="form-control">
 							<option value="" disabled selected>Cargo</option>
 							<option value="male">Vendedor</option>
-							<option value="femal">Administrador</option>
+							<option value="female">Administrador</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>
@@ -66,7 +66,7 @@
 						<select name="genero" id="" class="form-control">
 							<option value="" disabled selected>Genero</option>
 							<option value="male">Masculino</option>
-							<option value="femal">Feminno</option>
+							<option value="female">Femenino</option>
 							<option value="other">Prefiero no decirlo</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>

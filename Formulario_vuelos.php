@@ -115,29 +115,16 @@ http://www.tooplate.com/view/2093-flight
                                         <fieldset>
                                             <label for="Origen">De:</label>
                                             <select required name='Origen' onchange='this.form()'>
-                                                <option >Seleciona tu localización</option>
-                                                <option >Aeropuerto Internacional de la ciudad de México
-                                                    Benito Júarez (AICM)</option>
-                                                <option >Aeropuerto Internacional General Juan N.
-                                                    Álvarez "Acapulco"(AIA)</option>
-                                                <option >Aeropuerto Internacional de Guadalajara Don Miguel
-                                                    Hidalgo y Costilla</option>
-                                                <option >Aeropuerto Internacional de Cancún</option>
-                                                <option >Aeropuerto Internacional Monterrey</option>
-                                                <option >Aeropuerto Internacional Lic. Adolfo Lopez Mateos
-                                                    "Toluca" (AIT)</option>
-                                                <option >Aeropuerto Internacional de Tijuana</option>
-                                                <option >Aeropuerto Internacional de Puerto Vallarta
-                                                    (Lic. Gustavo Diaz Ordaz)</option>
-                                                <option >Aeropuerto Internacional Los Cabos</option>
-                                                <option >Aeropuerto Internacional Manuel Crescencio Rejón
-                                                    "Merida" (AIM)</option>
-                                                <option >Aeropuerto Internacional Federal de Culiacán
-                                                </option>
-                                                <option >Aeropuerto Internacional Guanajuato</option>
-                                                <option >Aeropuerto Internacional de Hermosillo</option>
-                                                <option >Aeropuerto Internacional General Heriberto Jara
-                                                    (AIV)</option>
+                                                <option>Seleciona tu localización</option>
+                                                <option>La Paz</option>
+                                                <option>Oruro</option>
+                                                <option>Potosi</option>
+                                                <option>Santa Cruz</option>
+                                                <option>Pando</option>
+                                                <option>Beni</option>
+                                                <option>Tarija</option>
+                                                <option>Sucre</option>
+                                                <option>Cochabamba</option>
                                             </select>
                                         </fieldset>
                                     </div>
@@ -145,29 +132,16 @@ http://www.tooplate.com/view/2093-flight
                                         <fieldset>
                                             <label for="Destino">A:</label>
                                             <select required name='Destino' onchange='this.form()'>
-                                                <option >Seleciona la localización</option>
-                                                <option >Aeropuerto Internacional de la ciudad de México
-                                                    Benito Júarez (AICM)</option>
-                                                <option >Aeropuerto Internacional General Juan N.
-                                                    Álvarez "Acapulco"(AIA)</option>
-                                                <option >Aeropuerto Internacional de Guadalajara Don Miguel
-                                                    Hidalgo y Costilla</option>
-                                                <option >Aeropuerto Internacional de Cancún</option>
-                                                <option >Aeropuerto Internacional Monterrey</option>
-                                                <option >Aeropuerto Internacional Lic. Adolfo Lopez Mateos
-                                                    "Toluca" (AIT)</option>
-                                                <option >Aeropuerto Internacional de Tijuana</option>
-                                                <option >Aeropuerto Internacional de Puerto Vallarta
-                                                    (Lic. Gustavo Diaz Ordaz)</option>
-                                                <option >Aeropuerto Internacional Los Cabos</option>
-                                                <option >Aeropuerto Internacional Manuel Crescencio Rejón
-                                                    "Merida" (AIM)</option>
-                                                <option >Aeropuerto Internacional Federal de Culiacán
-                                                </option>
-                                                <option >Aeropuerto Internacional Guanajuato</option>
-                                                <option >Aeropuerto Internacional de Hermosillo</option>
-                                                <option >Aeropuerto Internacional General Heriberto Jara
-                                                    (AIV)</option>
+                                                <option>Seleciona tu localización</option>
+                                                <option>La Paz</option>
+                                                <option>Oruro</option>
+                                                <option>Potosi</option>
+                                                <option>Santa Cruz</option>
+                                                <option>Pando</option>
+                                                <option>Beni</option>
+                                                <option>Tarija</option>
+                                                <option>Sucre</option>
+                                                <option>Cochabamba</option>
                                             </select>
                                         </fieldset>
                                     </div>
@@ -187,18 +161,18 @@ http://www.tooplate.com/view/2093-flight
                                         <fieldset>
                                             <label for="Hora Salida">Hora:</label>
                                             <select required name='Hora' onchange='this.form()'>
-                                                <option >Selecciona la hora de vuelo</option>
-                                                <option > 12:00 - 1:00 </option>
-                                                <option > 1:00 - 2:00 </option>
-                                                <option >2:00 - 3:00 </option>
-                                                <option >3:00 - 4:00 </option>
-                                                <option >4:00 - 5:00 </option>
-                                                <option >5:00 - 6:00 </option>
-                                                <option >7:00 - 8:00</option>
-                                                <option >8:00 - 9:00</option>
-                                                <option >9:00 - 10:00</option>
-                                                <option >10:00 - 11:00</option>
-                                                <option >11:00 - 12:00</option>
+                                                <option>Selecciona la hora de vuelo</option>
+                                                <option> 12:00 - 1:00 </option>
+                                                <option> 1:00 - 2:00 </option>
+                                                <option>2:00 - 3:00 </option>
+                                                <option>3:00 - 4:00 </option>
+                                                <option>4:00 - 5:00 </option>
+                                                <option>5:00 - 6:00 </option>
+                                                <option>7:00 - 8:00</option>
+                                                <option>8:00 - 9:00</option>
+                                                <option>9:00 - 10:00</option>
+                                                <option>10:00 - 11:00</option>
+                                                <option>11:00 - 12:00</option>
                                             </select>
                                             <select name="Horario" id="">
                                                 <option> Selecciona el Horario</option>
@@ -215,33 +189,33 @@ http://www.tooplate.com/view/2093-flight
                                     </div>
                                     <div class="col-md-6">
                                         <label for="ModoVuelo">Modo de vuelo:</label>
-                                            <select name="ModoVuelo" id="">
-                                                <option> Selecciona el modo de vuelo</option>
-                                                <option> Redondo</option>
-                                                <option> Solo Vuelo</option>
-                                            </select>
-                                            <div class="col-md-6">
-                                        <fieldset>
+                                        <select name="ModoVuelo" id="">
+                                            <option> Selecciona el modo de vuelo</option>
+                                            <option> Redondo</option>
+                                            <option> Solo Vuelo</option>
+                                        </select>
+                                        <div class="col-md-6">
+                                            <fieldset>
                                                 <br>
                                                 <br>
                                                 <br>
-                                                
-                                            <button type="submit" id="form-submit" class="btn" style="width: 500px; height: 35px; background:gold" a href="index.php">Crear Vuelo
-                                                Ahora</button>
+
+                                                <button type="submit" id="form-submit" class="btn" style="width: 500px; height: 35px; background:gold" a href="index.php">Crear Vuelo
+                                                    Ahora</button>
                                                 <br>
                                                 <br>
-                                        </fieldset>
-                                    </div>
+                                            </fieldset>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
                         </div>
+                        </form>
                     </div>
-                </section>
             </div>
-        </div>
-        </div>
+    </section>
+    </div>
+    </div>
+    </div>
     </section>
     <!--
     <div class="tabs-content" id="recommended-hotel">

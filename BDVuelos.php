@@ -27,11 +27,11 @@ $query = mysqli_query($conexion, $insertar);
 if($query){
     echo"<script> alert('Registro De Vuelo Completado');
     location.href = 'index-pagos.php';
-   </script>";
+    </script>";
 } else {
     echo "<script> alert('Vuelo no registrado - vuelve a intentarlo');
     location.href = 'Formulario_Vuelos.php';
-   </script>";
+    </script>";
 }
 
 ?>

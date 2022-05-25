@@ -64,8 +64,7 @@ http://www.tooplate.com/view/2093-flight
                     <!-- <li><a class="nav-link scrollto " href="#portfolio">¿?</a></li> -->
                     <!-- <li><a class="nav-link scrollto" href="#team">¿?</a></li> -->
                     <li><a class="nav-link scrollto" href="index-pagos.php">Reservas</a></li>
-                    <li class="dropdown"><a href=""><span>Listas de Aerolineas</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href=""><span>Listas de Aerolineas</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
                             <li><a href="https://aeromexico.com">Aeroméxico</a></li>
@@ -92,8 +91,7 @@ http://www.tooplate.com/view/2093-flight
                             <li><a href="#">Tijuana</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#">Los mejores Aviones</a></li>
                             <li><a href="#">Información util para viajar</a></li>
@@ -151,28 +149,23 @@ http://www.tooplate.com/view/2093-flight
                                             <label for="from">De:</label>
                                             <select required name='from' onchange='this.form()'>
                                                 <option value="">Seleciona tu localización</option>
-                                                <option value="Cambodia">Aeropuerto Internacional de la ciudad de México
-                                                    Benito Júarez (AICM)</option>
-                                                <option value="Hong Kong">Aeropuerto Internacional General Juan N.
-                                                    Álvarez "Acapulco"(AIA)</option>
-                                                <option value="India">Aeropuerto Internacional de Guadalajara Don Miguel
-                                                    Hidalgo y Costilla</option>
-                                                <option value="Japan">Aeropuerto Internacional de Cancún</option>
-                                                <option value="Korea">Aeropuerto Internacional Monterrey</option>
-                                                <option value="Laos">Aeropuerto Internacional Lic. Adolfo Lopez Mateos
-                                                    "Toluca" (AIT)</option>
-                                                <option value="Myanmar">Aeropuerto Internacional de Tijuana</option>
-                                                <option value="Singapore">Aeropuerto Internacional de Puerto Vallarta
-                                                    (Lic. Gustavo Diaz Ordaz)</option>
-                                                <option value="Thailand">Aeropuerto Internacional Los Cabos</option>
-                                                <option value="Vietnam">Aeropuerto Internacional Manuel Crescencio Rejón
+                                                <option value="Cambodia">La Paz</option>
+                                                <option value="Hong Kong">Oruro</option>
+                                                <option value="India">Potosi</option>
+                                                <option value="Japan">Santa Cruz</option>
+                                                <option value="Korea">Pando</option>
+                                                <option value="Laos">Beni</option>
+                                                <option value="Myanmar">Tarija</option>
+                                                <option value="Singapore">Sucre</option>
+                                                <option value="Thailand">Cochabamba</option>
+                                                <!-- <option value="Vietnam">Aeropuerto Internacional Manuel Crescencio Rejón
                                                     "Merida" (AIM)</option>
                                                 <option value="Thailand">Aeropuerto Internacional Federal de Culiacán
                                                 </option>
                                                 <option value="Thailand">Aeropuerto Internacional Guanajuato</option>
                                                 <option value="Thailand">Aeropuerto Internacional de Hermosillo</option>
                                                 <option value="Thailand">Aeropuerto Internacional General Heriberto Jara
-                                                    (AIV)</option>
+                                                    (AIV)</option> -->
                                             </select>
                                         </fieldset>
                                     </div>
@@ -180,44 +173,37 @@ http://www.tooplate.com/view/2093-flight
                                         <fieldset>
                                             <label for="to">A:</label>
                                             <select required name='to' onchange='this.form()'>
-                                                <option value="">Seleciona la localización</option>
-                                                <option value="Cambodia">Aeropuerto Internacional de la ciudad de México
-                                                    Benito Júarez (AICM)</option>
-                                                <option value="Hong Kong">Aeropuerto Internacional General Juan N.
-                                                    Álvarez "Acapulco"(AIA)</option>
-                                                <option value="India">Aeropuerto Internacional de Guadalajara Don Miguel
-                                                    Hidalgo y Costilla</option>
-                                                <option value="Japan">Aeropuerto Internacional de Cancún</option>
-                                                <option value="Korea">Aeropuerto Internacional Monterrey</option>
-                                                <option value="Laos">Aeropuerto Internacional Lic. Adolfo Lopez Mateos
-                                                    "Toluca" (AIT)</option>
-                                                <option value="Myanmar">Aeropuerto Internacional de Tijuana</option>
-                                                <option value="Singapore">Aeropuerto Internacional de Puerto Vallarta
-                                                    (Lic. Gustavo Diaz Ordaz)</option>
-                                                <option value="Thailand">Aeropuerto Internacional Los Cabos</option>
-                                                <option value="Vietnam">Aeropuerto Internacional Manuel Crescencio Rejón
+                                                <option value="">Seleciona tu localización</option>
+                                                <option value="Cambodia">La Paz</option>
+                                                <option value="Hong Kong">Oruro</option>
+                                                <option value="India">Potosi</option>
+                                                <option value="Japan">Santa Cruz</option>
+                                                <option value="Korea">Pando</option>
+                                                <option value="Laos">Beni</option>
+                                                <option value="Myanmar">Tarija</option>
+                                                <option value="Singapore">Sucre</option>
+                                                <option value="Thailand">Cochabamba</option>
+                                                <!-- <option value="Vietnam">Aeropuerto Internacional Manuel Crescencio Rejón
                                                     "Merida" (AIM)</option>
                                                 <option value="Thailand">Aeropuerto Internacional Federal de Culiacán
                                                 </option>
                                                 <option value="Thailand">Aeropuerto Internacional Guanajuato</option>
                                                 <option value="Thailand">Aeropuerto Internacional de Hermosillo</option>
                                                 <option value="Thailand">Aeropuerto Internacional General Heriberto Jara
-                                                    (AIV)</option>
+                                                    (AIV)</option> -->
                                             </select>
                                         </fieldset>
                                     </div>
                                     <div class="col-md-6">
                                         <fieldset>
                                             <label for="departure">Fecha de Salida:</label>
-                                            <input name="deparure" type="text" class="form-control date" id="deparure"
-                                                placeholder="Seleciona la Fecha" required onchange='this.form()'>
+                                            <input name="deparure" type="text" class="form-control date" id="deparure" placeholder="Seleciona la Fecha" required onchange='this.form()'>
                                         </fieldset>
                                     </div>
                                     <div class="col-md-6">
                                         <fieldset>
                                             <label for="return">Fecha de llegada:</label>
-                                            <input name="return" type="text" class="form-control date" id="return"
-                                                placeholder="Seleciona la Fecha" required onchange='this.form()'>
+                                            <input name="return" type="text" class="form-control date" id="return" placeholder="Seleciona la Fecha" required onchange='this.form()'>
                                         </fieldset>
                                     </div>
                                     <div class="col-md-6">
@@ -225,13 +211,11 @@ http://www.tooplate.com/view/2093-flight
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <label for="round">Redondo</label>
-                                                    <input type="radio" name="trip" id="round" value="round"
-                                                        requiredonchange='this.form.()'>
+                                                    <input type="radio" name="trip" id="round" value="round" requiredonchange='this.form.()'>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                                     <label for="oneway">Unidireccional</label>
-                                                    <input type="radio" name="trip" id="oneway" value="one-way"
-                                                        requiredonchange='this.form.()'>
+                                                    <input type="radio" name="trip" id="oneway" value="one-way" requiredonchange='this.form.()'>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,9 +223,9 @@ http://www.tooplate.com/view/2093-flight
                                     <div class="col-md-6">
                                         <fieldset>
                                             <button type="submit" id="form-submit" class="btn"> Consultar Vuelos
-                                                Ahora!!</button> 
-                                               <!--
-                                                <button type="submit" id="form-submit" class="btn">Consultar vuelos!!
+                                                Ahora!!</button>
+                                            <!--
+                                            <button type="submit" id="form-submit" class="btn"> Consultar vuelos!!
                                                 Ahora</button> -->
                                         </fieldset>
                                     </div>
@@ -254,8 +238,6 @@ http://www.tooplate.com/view/2093-flight
         </div>
         </div>
     </section>
-
-
 
     <div class="tabs-content" id="weather">
         <div class="container">
@@ -838,7 +820,9 @@ http://www.tooplate.com/view/2093-flight
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
 
@@ -848,23 +832,25 @@ http://www.tooplate.com/view/2093-flight
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
 
 
 
             // navigation click actions 
-            $('.scroll-link').on('click', function (event) {
+            $('.scroll-link').on('click', function(event) {
                 event.preventDefault();
                 var sectionID = $(this).attr("data-id");
                 scrollToID('#' + sectionID, 750);
             });
             // scroll to top action
-            $('.scroll-top').on('click', function (event) {
+            $('.scroll-top').on('click', function(event) {
                 event.preventDefault();
-                $('html, body').animate({ scrollTop: 0 }, 'slow');
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 'slow');
             });
             // mobile nav toggle
-            $('#nav-toggle').on('click', function (event) {
+            $('#nav-toggle').on('click', function(event) {
                 event.preventDefault();
                 $('#main-nav').toggleClass("open");
             });
@@ -874,7 +860,9 @@ http://www.tooplate.com/view/2093-flight
             var offSet = 0;
             var targetOffset = $(id).offset().top - offSet;
             var mainNav = $('#main-nav');
-            $('html,body').animate({ scrollTop: targetOffset }, speed);
+            $('html,body').animate({
+                scrollTop: targetOffset
+            }, speed);
             if (mainNav.hasClass("open")) {
                 mainNav.css("height", "1px").removeClass("in").addClass("collapse");
                 mainNav.removeClass("open");
@@ -882,7 +870,7 @@ http://www.tooplate.com/view/2093-flight
         }
         if (typeof console === "undefined") {
             console = {
-                log: function () { }
+                log: function() {}
             };
         }
     </script>

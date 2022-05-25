@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
                 $(".header").addClass("active");
             } else {
                 //remove the background property so it comes transparent again (defined in your css)
-               $(".header").removeClass("active");
+                $(".header").removeClass("active");
             }
         });
 

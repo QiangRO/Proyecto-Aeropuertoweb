@@ -20,11 +20,11 @@ $query = mysqli_query($conexion, $insertar);
 if($query){
     echo"<script> alert('Registro Completado');
     location.href = 'login.php';
-   </script>";
+    </script>";
 } else {
     echo "<script> alert('Usuario no registrado');
     location.href = 'register.php';
-   </script>";
+    </script>";
 }
 
 ?>
