@@ -7,7 +7,7 @@
 		$conexion = mysqli_connect("sql207.byethost31.com", "b31_29729395", "12345678900987654321", "b31_29729395_checkin") or 
 		die("problemas con la conexion o datos incorrectos");
 
-		mysqli_query($conexion, "insert into Equipaje_Facturado (cod_pasajero,peso,cod_tipoequipaje) values ((select cod_pasajero from Pasajero where Nombre = '$_REQUEST[nombre]' and Apellido = '$_REQUEST[apellido]'),'$_REQUEST[peso]','$_REQUEST[tipo]');")
+		mysqli_query($conexion, "insert into equipaje_facturado (cod_pasajero,peso,cod_tipoequipaje) values ((select cod_pasajero from pasajero where Nombre = '$_REQUEST[nombre]' and Apellido = '$_REQUEST[apellido]'),'$_REQUEST[peso]','$_REQUEST[tipo]');")
 
 		or die("error en vuelva a intentarlo <a href='./frmRegistroequipaje.php'>Regresar al formulario</a><br>" . mysqli_error($conexion));
 
