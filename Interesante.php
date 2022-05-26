@@ -41,7 +41,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" style="background: black;" class="fixed-top ">
+  <header id="header" style="background: darkblue;" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
       <h1 class="logo me-auto me-lg-0"><a href="index.php">MMAA<span>.</span></a></h1>
@@ -100,7 +100,7 @@
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a>
+      <!-- <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a> -->
 
     </div>
   </header><!-- End Header -->
@@ -110,10 +110,10 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
+        <!-- <div class="col-xl-6 col-lg-8">
           <h1>INTERESANTE<span><br> ¿SABIAS QUÉ?</span></h1>
           <h2>El control de seguridad no se hizo obligatorio hasta los 70</h2>
-        </div>
+        </div> -->
       </div>
   </section><!-- End Hero -->
 

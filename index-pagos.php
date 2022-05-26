@@ -51,10 +51,10 @@ http://www.tooplate.com/view/2093-flight
 
 <body>
     <!-- ======= Header ======= -->
-    <header id="header" style="background: black;" class="fixed-top ">
+    <header id="header" style="background: darkblue;" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-lg-between">
 
-            <h1 class="logo me-auto me-lg-0"><a href="index.php">MMAA<span>.</span></a></h1>
+            <h1 class="logo me-auto me-lg-0"><a href="index.php">AIRLINES</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,29 +66,27 @@ http://www.tooplate.com/view/2093-flight
                     <li><a class="nav-link scrollto" href="index-pagos.php">Reservas</a></li>
                     <li class="dropdown"><a href=""><span>Listas de Aerolineas</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
-                            <li><a href="https://aeromexico.com">Aeroméxico</a></li>
-                            <li><a href="https://www.calafiaairlines.com/">Calafia Airlines</a></li>
-                            <li><a href="https://interjet.pricetravel.com.mx/">Interjet</a></li>
-                            <li><a href="https://www.magnicharters.com">Magnicharters</a></li>
-                            <li><a href="https://tarmexico.com/#/">TAR</a></li>
-                            <li><a href="https://www.vivaaerobus.com/mx">VivaAerobus</a></li>
-                            <li><a href="https://www.volaris.com/">Volaris</a></li>
+                            <li><a href="#">Amaszonas</a></li>
+                            <li><a href="#">BOA</a></li>
+                            <li><a href="#">Aerolineas Argentinas</a></li>
+                            <li><a href="#">Ecojet</a></li>
+                            <li><a href="#">Amaszonas Uruguay</a></li>
+                            <li><a href="#">American Airlines</a></li>
+                            <li><a href="#">Air Europa</a></li>
+                            <li><a href="#">Azul</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="Aeropuertos.php"><span>Aeropuertos</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#">Lista completa de Aeropuertos</a></li>
-                            <li><a href="#">Cancún</a></li>
-                            <li><a href="#">Ciudad de México</a></li>
-                            <li><a href="#">Culiacán</a></li>
-                            <li><a href="#">Gudalajara</a></li>
-                            <li><a href="#">Guanajuato</a></li>
-                            <li><a href="#">Los Cabos</a></li>
-                            <li><a href="#">Mérida</a></li>
-                            <li><a href="#">Monterrey</a></li>
-                            <li><a href="#">Puerto Vallarta</a></li>
-                            <li><a href="#">Tijuana</a></li>
+                            <li><a href="#">La Paz</a></li>
+                            <li><a href="#">Santa Cruz</a></li>
+                            <li><a href="#">Cochabamba</a></li>
+                            <li><a href="#">Chuquisaca</a></li>
+                            <li><a href="#">Beni</a></li>
+                            <li><a href="#">Oruro</a></li>
+                            <li><a href="#">Potosi</a></li>
+                            <li><a href="#">Tarija</a></li>
+                            <li><a href="#">Pando</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i class="bi bi-chevron-down"></i></a>
@@ -108,7 +106,7 @@ http://www.tooplate.com/view/2093-flight
                         </ul>
                         <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
-            <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a>
+            <!-- <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a> -->
 
         </div>
     </header><!-- End Header -->

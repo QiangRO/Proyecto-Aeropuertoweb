@@ -11,7 +11,7 @@ $contraseña = $_POST['contraseña'];
 
 //aqui vamos a insertar datos
 $insertar = "INSERT INTO usuarios(nombre,apellidos,usuario,email,cargo,genero,contraseña) VALUES
-('$nombre','$apellido','$usuario','$email','$cargo','$genero','$contraseña')";
+('$nombre','$apellido','$usuario','$email','$cargo','$genero','$contraseña')";   
 
 //Recorrer datos ya registrados y conectar a la base de datos
 $query = mysqli_query($conexion, $insertar);

@@ -24,9 +24,7 @@ if(isset($_SESSION['usuario'])){
   <link href="assets/Imagenes que se pueden ocupar/protesis.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -48,13 +46,13 @@ if(isset($_SESSION['usuario'])){
   ======================================================== -->
 </head>
 
-<body>
+<body style="z-index: 100;">
 
   <!-- ======= Header ======= -->
-  <header id="header" style="background: black;" class="fixed-top ">
+  <header id="header" style="background: darkblue;" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.php">MMAA<span>.</span></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php">AIRLINE</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,34 +64,30 @@ if(isset($_SESSION['usuario'])){
           <li><a class="nav-link scrollto" href="index-pagos.php">Reservas</a></li>
           <li class="dropdown"><a href="#"><span>Listas de Aerolineas</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="https://www.aeromar.mx/">Aeromar</a></li>
-              <li><a href="https://aeromexico.com">Aeroméxico</a></li>
-              <li><a href="https://www.calafiaairlines.com/">Calafia Airlines</a></li>
-              <li><a href="https://interjet.pricetravel.com.mx/">Interjet</a></li>
-              <li><a href="https://www.magnicharters.com">Magnicharters</a></li>
-              <li><a href="https://tarmexico.com/#/">TAR</a></li>
-              <li><a href="https://www.vivaaerobus.com/mx">VivaAerobus</a></li>
-              <li><a href="https://www.volaris.com/">Volaris</a></li>
+              <li><a href="#">Amaszonas</a></li>
+              <li><a href="#">BOA</a></li>
+              <li><a href="#">Aerolineas Argentinas</a></li>
+              <li><a href="#">Ecojet</a></li>
+              <li><a href="#">Amaszonas Uruguay</a></li>
+              <li><a href="#">American Airlines</a></li>
+              <li><a href="#">Air Europa</a></li>
+              <li><a href="#">Azul</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="Aeropuertos.php"><span>Aeropuertos</span> <i
-                class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="Aeropuertos.php"><span>Aeropuertos</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Lista completa de Aeropuertos</a></li>
-              <li><a href="#">Cancún</a></li>
-              <li><a href="#">Ciudad de México</a></li>
-              <li><a href="#">Culiacán</a></li>
-              <li><a href="#">Gudalajara</a></li>
-              <li><a href="#">Guanajuato</a></li>
-              <li><a href="#">Los Cabos</a></li>
-              <li><a href="#">Mérida</a></li>
-              <li><a href="#">Monterrey</a></li>
-              <li><a href="#">Puerto Vallarta</a></li>
-              <li><a href="#">Tijuana</a></li>
+              <li><a href="#">La Paz</a></li>
+              <li><a href="#">Santa Cruz</a></li>
+              <li><a href="#">Cochabamba</a></li>
+              <li><a href="#">Chuquisaca</a></li>
+              <li><a href="#">Beni</a></li>
+              <li><a href="#">Oruro</a></li>
+              <li><a href="#">Potosi</a></li>
+              <li><a href="#">Tarija</a></li>
+              <li><a href="#">Pando</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i
-                class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="Interesante.php"><span>Interesante</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Los mejores Aviones</a></li>
               <li><a href="#">Información util para viajar</a></li>
@@ -110,8 +104,18 @@ if(isset($_SESSION['usuario'])){
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </li>
+          <li class="dropdown"><a href="#"><span>Momento Evaluativo</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./Paola/check-in.php">Check-in</a></li>
+              <li><a href="./Alejandro/petcheck.php">Pet-Check</a></li>
+              <li><a href="./Kael/frmRegistro.php">Registro Pasajero</a></li>
+              <!-- <li><a href="./Kael/frmRegistroequipaje.php">Registro Equipaje</a></li> -->
+              <li><a href="./controlDeVuelos.php">Control de Vuelos</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </li>
       </nav><!-- .navbar -->
-      <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a>
+      <!-- <a href="Login.php" class="get-started-btn scrollto">Iniciar Sesión</a> -->
       <!--<a href="cerrar.php" class="get-started-btn scrollto">Cerrar Sesión</a>-->
 
     </div>
@@ -125,7 +129,7 @@ if(isset($_SESSION['usuario'])){
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
           <h1>AEROPUERTO INTERNACIONAL DE EL ALTO<span>.</span></h1>
-          <h2>AEROPUERTO INTERNACIONAL GENERAL JUAN N. ÁLVAREZ</h2>
+          <h2>COMODIDAD Y SEGURIDAD AL MOMENTO DE VIAJAR</h2>
         </div>
       </div>
 
