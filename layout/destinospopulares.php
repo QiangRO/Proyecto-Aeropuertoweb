@@ -2,7 +2,7 @@
     <div class="tour-fluid">
         <div class="row">
             <div class="col-md-12">
-                <ul id="fh5co-destination-list" class="animate-box">
+                <ul id="fh5co-destination-list" class="">
                     <li class="one-forth text-center" style="background-image: url(images/cochabamba.jpg); ">
                         <a href="#">
                             <div class="case-studies-summary">

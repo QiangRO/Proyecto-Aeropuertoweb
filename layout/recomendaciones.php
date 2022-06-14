@@ -1,7 +1,7 @@
 <div id="fh5co-blog-section" class="fh5co-section-gray">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section ">
                 <h3>Recomendaciones</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores,
                     perspiciatis accusamus asperiores sint consequuntur debitis.</p>
@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row row-bottom-padded-md">
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/politicaequipaje.jpg" ></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/planeacionviaje.jpg" ></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -42,7 +42,7 @@
             </div>
             <div class="clearfix visible-sm-block"></div>
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/llegaraeropuerto.jpg" ></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/servicios.jpg" ></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/derechos.jpg" ></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -88,7 +88,7 @@
             </div>
             <div class="clearfix visible-sm-block"></div>
             <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="fh5co-blog animate-box">
+                <div class="fh5co-blog ">
                     <a href="#"><img class="img-responsive" src="images/mascotas.jpg"></a>
                     <div class="blog-text">
                         <div class="prod-title">
@@ -104,7 +104,7 @@
             </div>
             <div class="clearfix visible-md-block"></div>
         </div>
-        <div class="col-md-12 text-center animate-box">
+        <div class="col-md-12 text-center ">
             <p><a class="btn btn-primary btn-outline btn-lg" href="#">Ver todos<i class="icon-arrow-right22"></i></a></p>
         </div>
     </div>

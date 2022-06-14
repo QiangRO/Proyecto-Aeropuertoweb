@@ -34,10 +34,10 @@
                 <a onclick="history.back(-1)" class="link-button link-back-button">Volver</a>
                 <a class="link-button link-back-button" href="index.php">Home</a>
                 <a class="link-button link-back-button" href="contacto.php">Contactanos</a>
-                <!-- <div class="col-md-12 text-center animate-box">
+                <!-- <div class="col-md-12 text-center ">
                     <p><a class="btn btn-primary btn-outline btn-lg" href="index.php">Home<i class="icon-arrow-right22"></i></a></p>
                 </div>
-                <div class="col-md-12 text-center animate-box">
+                <div class="col-md-12 text-center ">
                     <p><a class="btn btn-primary btn-outline btn-lg" href="contacto.php">Contactanos<i class="icon-arrow-right22"></i></a></p> -->
                 </div>
             </div>

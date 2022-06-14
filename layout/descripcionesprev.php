@@ -1,7 +1,7 @@
 <div id="fh5co-features">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-hotairballoon"></i>
@@ -13,7 +13,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-search"></i>
@@ -25,7 +25,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-wallet"></i>
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-wine"></i>
@@ -51,7 +51,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-genius"></i>
@@ -64,7 +64,7 @@
 				</div>
 
 			</div>
-			<div class="col-md-4 animate-box">
+			<div class="col-md-4 ">
 				<div class="feature-left">
 					<span class="icon">
 						<i class="icon-chat"></i>

@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5 col-md-5">
-                        <div class="tabulation animate-box">
+                        <div class="tabulation ">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active">
@@ -281,7 +281,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="desc2 animate-box">
+                    <div class="desc2 ">
                         <div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
                             <h2>Aeropuerto Internacional de Univalle</h2>
                             <h3>Viaja a traves del mundo</h3>

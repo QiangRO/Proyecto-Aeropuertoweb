@@ -2,19 +2,19 @@
 <div id="fh5co-tours" class="fh5co-section-gray">
     <div class="container">
         <div class="row2 row-bottom-padded-md">
-            <div class="col-md-12 animate-box text-center">
+            <div class="col-md-12  text-center">
                 <h2 class="heading-title2 tituloh2">POLITICA DE <br> EQUIPAJE</h2>
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni reprehenderit modi sapiente, excepturi doloremque ad placeat et voluptate qui dicta iusto architecto molestias id deserunt sunt non vero, perspiciatis cum?</p>
             </div>
         </div>
         <div class="row2 row-bottom-padded-md">
-            <div class="col-md-12 animate-box text-center">
+            <div class="col-md-12  text-center">
                 <h2 class="heading-title">EQUIPAJE DE MANO</h2>
             </div>
-            <div class="col-md-6 animate-box">
+            <div class="col-md-6 ">
                 <img class="img-responsive" src="images/lapaz.jpg" alt="travel">
             </div>
-            <div class="col-md-6 animate-box">
+            <div class="col-md-6 ">
                 <div class="row2">
                     <div class="col-md-12">
                         <h4>Mejores ofertas, más habilidades</h4>

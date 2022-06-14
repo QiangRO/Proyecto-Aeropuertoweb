@@ -1,16 +1,16 @@
 <div id="fh5co-tours" class="fh5co-section-gray">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center heading-section ">
                 <h3>Planea tu viaje</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni reprehenderit modi sapiente, excepturi doloremque ad placeat et voluptate qui dicta iusto architecto molestias id deserunt sunt non vero, perspiciatis cum?</p>
             </div>
         </div>
         <div class="row row-bottom-padded-md">
-            <div class="col-md-12 animate-box">
+            <div class="col-md-12 ">
                 <h2 class="heading-title">Oferta de vuelo de hoy</h2>
             </div>
-            <div class="col-md-6 animate-box">
+            <div class="col-md-6 ">
                 <div class="row">
                     <div class="col-md-12">
                         <h4>Mejores ofertas, más habilidades</h4>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 animate-box">
+            <div class="col-md-6 ">
                 <img class="img-responsive" src="images/cover_bg_3.jpg" alt="travel">
                 <a href="#" class="flight-book">
                     <div class="plane-name">
@@ -102,7 +102,7 @@
             </div>
         </div>
         <div class="row row-bottom-padded-md">
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/santacruz.jpg" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/cobija.jpg" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/lapaz.jpg" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/trinidad.jpg" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
                 <div href="#"><img src="images/tarija.png" class="img-responsive">
                     <div class="desc">
                         <span></span>
@@ -168,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 text-center animate-box">
+            <div class="col-md-12 text-center ">
                 <p><a class="btn btn-primary btn-outline btn-lg" href="#">Ver todas las ofertas <i class="icon-arrow-right22"></i></a></p>
             </div>
         </div>

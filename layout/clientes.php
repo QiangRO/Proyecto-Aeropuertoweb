@@ -1,14 +1,14 @@
 <!-- fh5co-blog-section -->
 <div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
 	<div class="container">
-		<div class="row animate-box">
+		<div class="row ">
 			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 				<h2>Reseñas de clientes</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="box-testimony animate-box">
+				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
 						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
@@ -19,7 +19,7 @@
 
 			</div>
 			<div class="col-md-4">
-				<div class="box-testimony animate-box">
+				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
 						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="box-testimony animate-box">
+				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
 						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
