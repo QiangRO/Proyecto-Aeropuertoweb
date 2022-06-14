@@ -1,0 +1,91 @@
+/* ---------------- Created By InCoder ---------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #00c785;
+}
+
+.accordionBox {
+    width: 30rem;
+    margin: 1.8rem;
+    max-width: 30rem;
+    padding: 10px 10px;
+    border-radius: 0.4rem;
+    background-color: #fff;
+}
+
+.accordionItem {
+    transition: all 0.4s;
+    border-radius: 0.4rem;
+}
+
+.accordionItem:first-child {
+    margin-top: 0 !important;
+}
+
+.accordionItem:last-child {
+    margin-bottom: 0 !important;
+}
+
+.accordionItem .header {
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px;
+    align-items: center;
+    border-radius: 0.4rem;
+    justify-content: space-between;
+}
+
+.accordionItem .header h3,
+.accordionItem .header i {
+    pointer-events: none;
+}
+
+.accordionItem .header:hover {
+    background-color: rgba(0, 199, 133, 0.21);
+}
+
+.accordionItem .header i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.accordionItem .body {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    transition: all 0.4s;
+    margin-left: 1.5rem;
+}
+
+.accordionItem.active {
+    margin: 10px 0px;
+    background-color: rgba(0, 199, 133, 0.16);
+}
+
+.accordionItem.active .body {
+    margin-top: 10px;
+    max-height: 20rem;
+    padding-bottom: 0.5rem;
+}
+
+.accordionItem.active .header {
+    background-color: rgba(0, 199, 133, 0.21);
+}
+
+.accordionItem.active .header i {
+    transition: all 0.3s;
+    transform: rotate(90deg);
+}

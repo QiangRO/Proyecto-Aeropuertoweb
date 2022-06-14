@@ -1,0 +1,51 @@
+/* #map{
+    height: 500px;
+    display: block;
+} */
+.universidad-lista{
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    bottom: 30vh;
+    width: fit-content;
+    border: 2px solid black;
+    z-index: 5;
+    color: white;
+    background-color: #333;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.universidad-lista h3{
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 3px solid #3683f7;
+}
+.uni-nombre{
+    flex: 1;
+    padding: 2rem;
+    cursor: help;
+}
+.window{
+    height: fit-content;
+    width: fit-content;
+    padding: 0,2rem;
+    opacity: 0.8;
+}
+.window h2{
+    border-bottom: 3px solid #3683f7;
+}
+.address, .phone, .page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: ne-resize;
+}
+.page a{
+    text-decoration: none;
+    color: black;
+}
