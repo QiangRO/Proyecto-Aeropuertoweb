@@ -2,17 +2,17 @@ let map;
 let markers = [];
 
 const setListener = () => {
-    document.querySelectorAll(".nombre-individual").forEach((universidadNombre, index)=>{
-        universidadNombre.addEventListener("click", ()=>{
+    document.querySelectorAll(".nombre-individual").forEach((aeropuertoNombre, index)=>{
+        aeropuertoNombre.addEventListener("click", ()=>{
             google.maps.event.trigger(markers[index], "click")
         })
     })
 }
 
-const displayUniversidadList = () => {
+const displayAeropuertoList = () => {
     let uniHTML = "";
-    universidades.forEach(universidad => {
-        uniHTML += `<h4 class="nombre-individual">${universidad.name}</h4>`
+    aeropuertos.forEach(aeropuerto => {
+        uniHTML += `<h4 class="nombre-individual">${aeropuerto.name}</h4>`
     })
     document.getElementById("uni-nombre").innerHTML = uniHTML;
 }
@@ -43,17 +43,28 @@ const createMarker = (coord, name, address, phone, page) => {
 
 const createLocationMarkers = () => {
     let bounds = new google.maps.LatLngBounds();
-    universidades.forEach(universidad => {
-        let coord = new google.maps.LatLng(universidad.lat, universidad.lng);
-        let name = universidad.name;
-        let address = universidad.address;
-        let phone = universidad.phone;
-        let page =universidad.page;
+    // aeropuertoes.forEach(aeropuerto => {
+    //     let coord = new google.maps.LatLng(aeropuerto.lat, aeropuerto.lng);
+    //     let name = aeropuerto.name;
+    //     let address = aeropuerto.address;
+    //     let phone = aeropuerto.phone;
+    //     let page =aeropuerto.page;
+    //     bounds.extend(coord)
+    //     createMarker(coord, name, address, phone, page);
+    //     map.fitBounds(bounds);
+    // })
+    aeropuertos.forEach(aeropuerto => {
+        let coord = new google.maps.LatLng(aeropuerto.lat, aeropuerto.lng);
+        let name = aeropuerto.name;
+        let address = aeropuerto.address;
+        let phone = aeropuerto.phone;
+        let page =aeropuerto.page;
         bounds.extend(coord)
         createMarker(coord, name, address, phone, page);
         map.fitBounds(bounds);
     })
 }
+
 
 
 function initMap() {
@@ -66,6 +77,6 @@ function initMap() {
     createLocationMarkers();
 
     infowindow = new google.maps.InfoWindow();
-    displayUniversidadList()
+    displayAeropuertoList()
     setListener()
 }

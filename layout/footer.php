@@ -79,6 +79,7 @@
     </div>
 </footer>
 </div>
+
 <!-- END fh5co-page -->
 </div>
 <!-- END fh5co-wrapper -->
@@ -108,6 +109,22 @@
 
 <!-- Main JS -->
 <script src="js/main.js"></script>
+<script type="text/javascript">
+    function mostrarContenido() {
+        element = document.getElementById("content");
+        check = document.getElementById("check");
+        if (check.checked) {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+
+    function limpiar() {
+        document.getElementById("date-start").value = "";
+        document.getElementById("date-end").value = "";
+    }
+</script>
 </body>
 
 </html>

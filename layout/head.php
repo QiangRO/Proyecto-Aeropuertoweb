@@ -78,26 +78,24 @@
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
 						<h1 id="fh5co-logo"><a href="index.php"><i class="icon-airplane"></i>AIDU</a></h1>
-						<!-- <li><a class="btn btn-primary btn-outline btn-lg" href="sesion.php">Iniciar sesion</a></li> -->
-						<!-- START #fh5co-menu-wrap -->
+
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
-								<!-- class="active" -->
-								<!-- <li><a href="index.php">Home</a></li> -->
 								<li>
 									<a href="vacaciones.php" class="fh5co-sub-ddown">Antes de viajar</a>
 									<!-- <label for="menu-2">Antes de viajar</label> -->
 									<ul class="fh5co-sub-menu">
 										<li><a href="antesviaje.php">Politica de equipaje</a></li>
 										<li><a href="mascotas.php">Politicas de mascotas</a></li>
-										<li><a href="#">Angular JS</a></li>
-										<li><a href="#">Node JS</a></li>
-										<li><a href="#">Django &amp; Python</a></li>
+										<li><a href="#">PLaneacion de viaje</a></li>
+										<li><a href="#">Llegar al Aeropuerto</a></li>
+										<li><a href="#">Derecho de pasajeros</a></li>
+										<li><a href="#">Servicios especiales</a></li>
 									</ul>
 								</li>
-								<!-- <li><a href="flight.html">Flights</a></li> -->
+
 								<li><a href="hotel.php">Hotel</a></li>
-								<!-- <li><a href="blog.html">Blog</a></li> -->
+
 								<li><a href="contacto.php">Contactanos</a></li>
 								<li><a href="login.php">Iniciar Sesion</a></li>
 

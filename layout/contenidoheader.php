@@ -1,31 +1,29 @@
 <div class="fh5co-hero">
     <div class="fh5co-overlay"></div>
-    <div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+    <div class="fh5co-cover" data-stellar-background-ratio="0.5">
         <div class="desc">
-            <div class="container">
+            <div class="container animate-box">
                 <div class="row">
                     <div class="col-sm-5 col-md-5">
                         <div class="tabulation ">
-                            <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active">
-                                    <a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Vuelos</a>
+                                    <a href="#vuelos" aria-controls="vuelos" role="tab" data-toggle="tab">Vuelos</a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hoteles</a>
+                                    <a href="#checkin" aria-controls="checkin" role="tab" data-toggle="tab">Check In</a>
                                 </li>
-                                <li role="presentation">
-                                    <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Paquetes</a>
-                                </li>
+                                <!-- <li role="presentation">
+                                    <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
+                                </li> -->
                             </ul>
-                            <!-- Tab panes -->
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="flights">
                                     <div class="row">
                                         <div class="col-xxs-12 col-xs-6 mt">
                                             <div class="input-field">
-                                                <label for="from">Desde:</label>
-                                                <select class="cs-select cs-skin-border" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
+                                                <label for="desde">Desde:</label>
+                                                <select name="desde" class="cs-select cs-skin-border" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=1; this.blur();' required>
                                                     <option value="" disabled selected>Origen</option>
                                                     <option value="cochabamba">Cochabamba</option>
                                                     <option value="la paz">La Paz</option>
@@ -39,19 +37,17 @@
                                                     <option value="buenos aires">Buenos Aires</option>
                                                 </select>
                                             </div>
-
                                         </div>
                                         <div class="col-xxs-12 col-xs-6 mt">
                                             <div class="input-field">
-                                                <label for="from">A:</label>
-                                                <select class="cs-select cs-skin-border" required>
+                                                <label for="hasta">A:</label>
+                                                <select name="hasta" class="cs-select cs-skin-border" required>
                                                     <option value="" disabled selected>Destino</option>
                                                     <option value="cochabamba">Cochabamba</option>
                                                     <option value="la paz">La Paz</option>
                                                     <option value="potosi">Potosi</option>
                                                     <option value="santa cruz">Santa Cruz</option>
                                                     <option value="sucre">Sucre</option>
-
                                                     <option value="trinidad">Trinidad</option>
                                                     <option value="uyuni">Uyuni</option>
                                                     <option value="lima">Lima</option>
@@ -60,33 +56,76 @@
                                                 </select>
                                             </div>
                                         </div>
+                                        <!-- <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <input class="ac-input" id="ac-1" name="accordion-1" type="checkbox" />
+                                                <label class="ac-label" for="ac-1">HTML and CSS only<i></i></label>
+
+                                                <button type="button" onclick="mostrarPremio();">Ver premio</button>
+
+                                                <div id="premio">
+                                                    <p>Te ganaste un pasaje a Cusco</p>
+                                                    <a href="javascript:void(0);" onclick="ocultarPremio();">No me gusta, no lo quiero!</a>
+                                                </div>
+
+                                                <div id="triste">
+                                                    <h3>:'(</h3>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <!-- <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <label for="date-start">Solo ida:</label>
+                                                <input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />
+                                                <div id="content" style="display: none;">
+                                                    contenido del div escondido<br />
+                                                    contenido del div escondido<br />
+                                                    contenido del div escondido<br />
+                                                </div>
+                                            </div>
+                                        </div> -->
                                         <div class="col-xxs-12 col-xs-6 mt alternate">
                                             <div class="input-field">
-                                                <label for="date-start">Salida:</label>
-                                                <input type="text" class="form-control" id="date-start" placeholder="" />
+                                                <label for="date-start">Ida y vuelta:</label>
+                                                <input type="radio" name="check" id="check" value="1" onchange="javascript:mostrarContenido()" onclick="limpiar()" />
                                             </div>
                                         </div>
                                         <div class="col-xxs-12 col-xs-6 mt alternate">
                                             <div class="input-field">
-                                                <label for="date-end">Regreso:</label>
-                                                <input type="text" class="form-control" id="date-end" placeholder="" />
+                                                <label for="date-start">Solo ida:</label>
+                                                <input type="radio" name="check" id="check" value="1" onchange="javascript:mostrarContenido()" onclick="limpiar()" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <label for="date-start">Salida:</label>
+                                                <input name="fechaSalida" type="text" class="form-control" id="date-start" placeholder="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <div id="content" style="display: none;">
+                                                    <label for="date-end">Regreso:</label>
+                                                    <input name="fechaRegreso" type="text" class="form-control" id="date-end" placeholder="" />
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 mt">
                                             <section>
                                                 <label for="class">Clase:</label>
-                                                <select class="cs-select cs-skin-border" required>
+                                                <select name="clase" class="cs-select cs-skin-border" required>
                                                     <option value="" disabled selected>Clase</option>
-                                                    <option value="economy">Economica</option>
-                                                    <option value="first">Primera clase</option>
-                                                    <option value="business">Ejecutiva</option>
+                                                    <option value="economica">Economica</option>
+                                                    <option value="primera clase">Primera clase</option>
+                                                    <option value="ejecutiva">Ejecutiva</option>
                                                 </select>
                                             </section>
                                         </div>
                                         <div class="col-xxs-12 col-xs-6 mt">
                                             <section>
                                                 <label for="class">Adultos:</label>
-                                                <select class="cs-select cs-skin-border" required>
+                                                <select name="adulto" class="cs-select cs-skin-border" required>
                                                     <option value="" disabled selected>1</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -98,7 +137,7 @@
                                         <div class="col-xxs-12 col-xs-6 mt">
                                             <section>
                                                 <label for="class">Niños:</label>
-                                                <select class="cs-select cs-skin-border" required>
+                                                <select name="niño" class="cs-select cs-skin-border" required>
                                                     <option value="" disabled selected>0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -112,172 +151,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div role="tabpanel" class="tab-pane" id="hotels">
-                                    <div class="row">
-                                        <div class="col-xxs-12 col-xs-12 mt">
-                                            <div class="input-field">
-                                                <label for="from">Ciudad:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>Ciudad</option>
-                                                    <option value="cochabamba">Cochabamba</option>
-                                                    <option value="la paz">La Paz</option>
-                                                    <option value="potosi">Potosi</option>
-                                                    <option value="santa cruz">Santa Cruz</option>
-                                                    <option value="sucre">Sucre</option>
-
-                                                    <option value="trinidad">Trinidad</option>
-                                                    <option value="uyuni">Uyuni</option>
-                                                    <option value="lima">Lima</option>
-                                                    <option value="sao paulo">Sao Paulo</option>
-                                                    <option value="buenos aires">Buenos Aires</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt alternate">
-                                            <div class="input-field">
-                                                <label for="date-start">Llegada:</label>
-                                                <input type="text" class="form-control" id="date-start" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt alternate">
-                                            <div class="input-field">
-                                                <label for="date-end">Salida:</label>
-                                                <input type="text" class="form-control" id="date-end" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 mt">
-                                            <section>
-                                                <label for="class">Habitaciones:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="economy">1</option>
-                                                    <option value="first">2</option>
-                                                    <option value="business">3</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <section>
-                                                <label for="class">Adultos:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <section>
-                                                <label for="class">Niños:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xs-12">
-                                            <input type="submit" class="btn btn-primary btn-block" value="Buscar hotel">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div role="tabpanel" class="tab-pane" id="packages">
-                                    <div class="row">
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <div class="input-field">
-                                                <label for="from">Desde:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>Origen</option>
-                                                    <option value="cochabamba">Cochabamba</option>
-                                                    <option value="la paz">La Paz</option>
-                                                    <option value="potosi">Potosi</option>
-                                                    <option value="santa cruz">Santa Cruz</option>
-                                                    <option value="sucre">Sucre</option>
-                                                    <option value="trinidad">Trinidad</option>
-                                                    <option value="uyuni">Uyuni</option>
-                                                    <option value="lima">Lima</option>
-                                                    <option value="sao paulo">Sao Paulo</option>
-                                                    <option value="buenos aires">Buenos Aires</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <div class="input-field">
-                                                <label for="from">A:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>Destino</option>
-                                                    <option value="cochabamba">Cochabamba</option>
-                                                    <option value="la paz">La Paz</option>
-                                                    <option value="potosi">Potosi</option>
-                                                    <option value="santa cruz">Santa Cruz</option>
-                                                    <option value="sucre">Sucre</option>
-
-                                                    <option value="trinidad">Trinidad</option>
-                                                    <option value="uyuni">Uyuni</option>
-                                                    <option value="lima">Lima</option>
-                                                    <option value="sao paulo">Sao Paulo</option>
-                                                    <option value="buenos aires">Buenos Aires</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt alternate">
-                                            <div class="input-field">
-                                                <label for="date-start">Llegada:</label>
-                                                <input type="text" class="form-control" id="date-start" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt alternate">
-                                            <div class="input-field">
-                                                <label for="date-end">Regreso:</label>
-                                                <input type="text" class="form-control" id="date-end" placeholder="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 mt">
-                                            <section>
-                                                <label for="class">Habitaciones:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="economy">1</option>
-                                                    <option value="first">2</option>
-                                                    <option value="business">3</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <section>
-                                                <label for="class">Adultos:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xxs-12 col-xs-6 mt">
-                                            <section>
-                                                <label for="class">Niños:</label>
-                                                <select class="cs-select cs-skin-border" required>
-                                                    <option value="" disabled selected>1</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </section>
-                                        </div>
-                                        <div class="col-xs-12">
-                                            <input type="submit" class="btn btn-primary btn-block" value="Buscar paquete">
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -285,13 +158,10 @@
                         <div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
                             <h2>Aeropuerto Internacional de Univalle</h2>
                             <h3>Viaja a traves del mundo</h3>
-                            <!-- <span class="price">500 BOB.</span> -->
-                            <!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>

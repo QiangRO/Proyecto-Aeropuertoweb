@@ -16,7 +16,6 @@
 					<p class="author">Juan Gamboa Chavez<span class="subtext">Cliente</span>
 					</p>
 				</div>
-
 			</div>
 			<div class="col-md-4">
 				<div class="box-testimony ">
