@@ -87,10 +87,10 @@
 									<ul class="fh5co-sub-menu">
 										<li><a href="antesviaje.php">Politica de equipaje</a></li>
 										<li><a href="mascotas.php">Politicas de mascotas</a></li>
-										<li><a href="#">PLaneacion de viaje</a></li>
-										<li><a href="#">Llegar al Aeropuerto</a></li>
-										<li><a href="#">Derecho de pasajeros</a></li>
-										<li><a href="#">Servicios especiales</a></li>
+										<li><a href="ServiciosEspeciales.php">Servicios Especiales</a></li>
+										<li><a href="llegarAeropuerto.php">Llegar al aeropuerto</a></li>
+										<li><a href="PasajerosEspeciales.php"> Pasajeros especiales</a></li>
+										<li><a href="TipsEquipaje.php"> Tips de equipaje</a></li>
 									</ul>
 								</li>
 
