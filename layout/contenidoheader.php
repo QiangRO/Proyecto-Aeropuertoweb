@@ -18,7 +18,7 @@
                                 </li> -->
                             </ul>
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active" id="flights">
+                                <div role="tabpanel" class="tab-pane active" id="vuelos">
                                     <div class="row">
                                         <div class="col-xxs-12 col-xs-6 mt">
                                             <div class="input-field">
