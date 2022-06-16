@@ -151,6 +151,36 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div role="tabpanel" class="tab-pane" id="checkin">
+                                                <div class="row">
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                    <div class="input-field">
+                                                        <p style="color: black;" >Realízalo entre 48 y 1 hora antes del vuelo.</p>
+                                                        <p style="color: black;">	Ten a mano tus documentos de viaje.</p>
+                                                        <p style="color: black;">Ten lista tu impresora con hojas de papel tamaño carta.</p>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <input type="checkbox" name="check" id="checkC" value="1" onchange="javascript:mostrarContenidoCheck()" onclick="limpiarCheck()" />
+                                                <label for="date-start">Estoy de acuerdo con los terminos y condiciones</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <div id="contentCheck" style="display: none;">
+                                                <a style="color: black;" href="checkIn.php">
+                                                <input type="submit" class="btn btn-primary btn-block" id="date-endCheck" ></a>
+                                                
+                                                 </input>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>

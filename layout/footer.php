@@ -124,6 +124,18 @@
         document.getElementById("date-start").value = "";
         document.getElementById("date-end").value = "";
     }
+    function mostrarContenidoCheck() {
+        element = document.getElementById("contentCheck");
+        check = document.getElementById("checkC");
+        if (check.checked) {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+    function limpiarCheck() {
+        document.getElementById("date-endCheck").value = "CHECK IN";
+    }
 </script>
 </body>
 
