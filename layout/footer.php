@@ -84,7 +84,7 @@
 </div>
 <!-- END fh5co-wrapper -->
 <!-- jQuery -->
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery.minn.js"></script>
 <!-- jQuery Easing -->
 <script src="js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
@@ -109,6 +109,15 @@
 
 <!-- Main JS -->
 <script src="js/main.js"></script>
+<!--    Datatables-->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#tablaUsuarios').DataTable();
+    });
+</script>
+
 <script type="text/javascript">
     function mostrarContenido() {
         element = document.getElementById("content");
@@ -124,6 +133,7 @@
         document.getElementById("date-start").value = "";
         document.getElementById("date-end").value = "";
     }
+
     function mostrarContenidoCheck() {
         element = document.getElementById("contentCheck");
         check = document.getElementById("checkC");
@@ -133,9 +143,31 @@
             element.style.display = 'none';
         }
     }
+
     function limpiarCheck() {
         document.getElementById("date-endCheck").value = "CHECK IN";
     }
+
+    $('.datepicker.entrada').datepicker({
+        startDate: '0d',
+        datesDisabled: '0d',
+        format: 'yyyy-mm-dd',
+        todayHighlight: true
+    });
+
+    $('.datepicker.entrada').change(function() {
+
+        $('.datepicker.salida').attr("readonly", false);
+
+        var fechaEntrada = $(this).val();
+
+        $('.datepicker.salida').datepicker({
+            startDate: fechaEntrada,
+            datesDisabled: fechaEntrada,
+            format: 'yyyy-mm-dd'
+        });
+
+    })
 </script>
 </body>
 
