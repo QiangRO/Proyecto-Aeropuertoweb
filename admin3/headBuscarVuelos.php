@@ -10,7 +10,6 @@
 	<meta name="description" />
 	<meta name="keywords" content="html5, css3, mobile first, responsive" />
 	<meta name="author" />
-
 	<meta property="og:title" content="" />
 	<meta property="og:image" content="" />
 	<meta property="og:url" content="" />
@@ -20,7 +19,6 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-
 	<link rel="icon" href="../images/favicon.png">
 
 	<!-- Animate.css -->
@@ -99,7 +97,7 @@
 							</ul>
 							<div class="navbar-item">
 								<div class="buttons">
-									<a href="ver_carrito.php" class="button is-success">
+									<a href="ver_carrito.php" class="button button is-link is-outlined">
 										<strong>Comprar <?php
 															include_once "funciones.php";
 															$conteo = count(obtenerIdsDeProductosEnCarrito());

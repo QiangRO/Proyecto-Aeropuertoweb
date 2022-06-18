@@ -34,10 +34,14 @@ $productos = obtenerProductosEnCarrito(); ?>
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Nombre</th>
-                                <th>Descripción</th>
+                                <th>Origen</th>
+                                <th>Destino</th>
+                                <th>Fecha de Salida</th>
+                                <th>Fecha de Regreso</th>
+                                <th>Hora Salida</th>
+                                <th>Hora Llegada</th>
                                 <th>Precio</th>
-                                <th>Quitar</th>
+                                <th>Eliminar</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -47,8 +51,12 @@ $productos = obtenerProductosEnCarrito(); ?>
                                 $total += $producto->precio;
                             ?>
                                 <tr>
-                                    <td><?php echo $producto->nombre ?></td>
-                                    <td><?php echo $producto->descripcion ?></td>
+                                    <td><?php echo $producto->origen ?></td>
+                                    <td><?php echo $producto->destino ?></td>
+                                    <td><?php echo $producto->fechasalida ?></td>
+                                    <td><?php echo $producto->fecharegreso ?></td>
+                                    <td><?php echo $producto->horasalida ?></td>
+                                    <td><?php echo $producto->horallegada ?></td>
                                     <td><?php echo number_format($producto->precio, 2) ?> BOB.</td>
                                     <td>
                                         <form action="eliminar_del_carrito.php" method="post">

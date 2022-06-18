@@ -37,7 +37,7 @@
                 <div class="field">
                     <label for="fecharegreso">Fecha Regreso</label>
                     <div class="control">
-                        <input required id="fecharegreso" class="input" type="text" placeholder="Fecha Regreso" name="fecharegreso">
+                        <input id="fecharegreso" class="input" type="text" placeholder="Fecha Regreso" name="fecharegreso">
                     </div>
                 </div>
                 <div class="field">

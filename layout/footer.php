@@ -151,7 +151,7 @@
     $('.datepicker.entrada').datepicker({
         startDate: '0d',
         datesDisabled: '0d',
-        format: 'yyyy-mm-dd',
+        format: 'dd-mm-yyyy',
         todayHighlight: true
     });
 
@@ -164,7 +164,7 @@
         $('.datepicker.salida').datepicker({
             startDate: fechaEntrada,
             datesDisabled: fechaEntrada,
-            format: 'yyyy-mm-dd'
+            format: 'dd-mm-yyyy'
         });
 
     })

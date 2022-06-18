@@ -5,10 +5,9 @@ function obtenerProductosEnCarrito()
 {
     $bd = obtenerConexion();
     iniciarSesionSiNoEstaIniciada();
-    $sentencia = $bd->prepare("SELECT productos.id, productos.nombre, productos.descripcion, productos.precio
-    FROM productos
-    INNER JOIN carrito_usuarios
-    ON productos.id = carrito_usuarios.id_producto
+    $sentencia = $bd->prepare("SELECT vuelos.id, vuelos.codigovuelo, vuelos.origen, vuelos.destino, vuelos.fechasalida, vuelos.fecharegreso, vuelos.horasalida, vuelos.horallegada	, vuelos.precio
+    FROM vuelos INNER JOIN carrito_usuarios
+    ON vuelos.id = carrito_usuarios.id_producto
     WHERE carrito_usuarios.id_sesion = ?");
     $idSesion = session_id();
     $sentencia->execute([$idSesion]);
@@ -25,8 +24,11 @@ function quitarProductoDelCarrito($idProducto)
 
 function obtenerProductos()
 {
+    // $bd = obtenerConexion();
+    // $sentencia = $bd->query("SELECT id, nombre, descripcion, precio FROM productos");
+    // return $sentencia->fetchAll();
     $bd = obtenerConexion();
-    $sentencia = $bd->query("SELECT id, nombre, descripcion, precio FROM productos");
+    $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada, precio FROM vuelos");
     return $sentencia->fetchAll();
 }
 function productoYaEstaEnCarrito($idProducto)
@@ -69,14 +71,14 @@ function iniciarSesionSiNoEstaIniciada()
 function eliminarProducto($id)
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->prepare("DELETE FROM productos WHERE id = ?");
+    $sentencia = $bd->prepare("DELETE FROM vuelos WHERE id = ?");
     return $sentencia->execute([$id]);
 }
 
 function guardarProducto($nombre, $precio, $descripcion)
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->prepare("INSERT INTO productos(nombre, precio, descripcion) VALUES(?, ?, ?)");
+    $sentencia = $bd->prepare("INSERT INTO vuelos(codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada) VALUES(?, ?, ?, ?, ?, ?, ?)");
     return $sentencia->execute([$nombre, $precio, $descripcion]);
 }
 
