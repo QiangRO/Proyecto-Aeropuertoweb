@@ -8,7 +8,7 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Viaje familiar</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Se brinda un viaje muy seguro y con una atencion amigable para todos los pasajeros.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>
@@ -20,7 +20,8 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Planes de viaje</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Para sus planes de viaje del pasajero nosotros brindamos toda la informacion al pasajero 
+							para que este no tenga contratiempos despues.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>
@@ -32,7 +33,7 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Luna de miel</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Por viajes importantes que puede ser paa una pareja se muestra toda la imformacion que esta puede necesitar.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>
@@ -46,7 +47,7 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Viaje de negocios</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Para su viaje se le brinda informacion sobre vuelos y cosas relacionadas sobre su vuelo.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>
@@ -58,7 +59,7 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Viajes</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Para sus viajes se le brinda toda la informacion posible sobre vuelos.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>
@@ -71,7 +72,7 @@
 					</span>
 					<div class="feature-copy">
 						<h3>Explorar</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+						<p>Puede explorar las diferentes partes de nuestra pagina web.</p>
 						<p><a href="#">Leer Mas</a></p>
 					</div>
 				</div>

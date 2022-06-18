@@ -11,7 +11,8 @@
 				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
+						<p>&ldquo;Tiene una buena atencion y si se tiene alguna duda o consulta se puede contactar con ellos para tener 
+							mas informacion.&rdquo;</p>
 					</blockquote>
 					<p class="author">Juan Gamboa Chavez<span class="subtext">Cliente</span>
 					</p>
@@ -21,7 +22,7 @@
 				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
+						<p>&ldquo;No estoy tan conforme con su informacion me gustaria que dieran mas informacion sobre ellos, pero su atencion es buena.&rdquo;</p>
 					</blockquote>
 					<p class="author">Raul Aparicio Espejo<span class="subtext">Cliente</span>
 					</p>
@@ -31,7 +32,8 @@
 				<div class="box-testimony ">
 					<blockquote>
 						<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-						<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error eos architecto adipisci reiciendis iure incidunt ex odio esse quas perferendis porro ad, possimus aut, voluptatibus recusandae pariatur? Est, impedit.&rdquo;</p>
+						<p>&ldquo;Me gustaria que su atencion mejorara y que se tenga un sector de preguntas y respuestas, ya que la informacion
+							que muestra es muy precisa.&rdquo;</p>
 					</blockquote>
 					<p class="author">Ana Maria Flores Usnayo <span class="subtext">Cliente</span></p>
 				</div>

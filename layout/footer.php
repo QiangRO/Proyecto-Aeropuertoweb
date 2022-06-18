@@ -148,6 +148,20 @@
         document.getElementById("date-endCheck").value = "CHECK IN";
     }
 
+
+    function mostrarContenidoPet() {
+        element = document.getElementById("contentPet");
+        check = document.getElementById("checkP");
+        if (check.checked) {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+    function limpiarPet() {
+        document.getElementById("date-endPet").value = "PET CHECK";
+    }
+
     $('.datepicker.entrada').datepicker({
         startDate: '0d',
         datesDisabled: '0d',
@@ -167,7 +181,8 @@
             format: 'dd-mm-yyyy'
         });
 
-    })
+    });
+
 </script>
 </body>
 
