@@ -136,6 +136,19 @@
     function limpiarCheck() {
         document.getElementById("date-endCheck").value = "CHECK IN";
     }
+
+    function mostrarContenidoPet() {
+        element = document.getElementById("contentPet");
+        check = document.getElementById("checkP");
+        if (check.checked) {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+    function limpiarPet() {
+        document.getElementById("date-endPet").value = "PET CHECK";
+    }
 </script>
 </body>
 

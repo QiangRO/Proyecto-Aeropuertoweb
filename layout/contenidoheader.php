@@ -13,6 +13,9 @@
                                 <li role="presentation">
                                     <a href="#checkin" aria-controls="checkin" role="tab" data-toggle="tab">Check In</a>
                                 </li>
+                                <li role="presentation">
+                                    <a href="#petcheck" aria-controls="checkin" role="tab" data-toggle="tab">Pet Check</a>
+                                </li>
                                 <!-- <li role="presentation">
                                     <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
                                 </li> -->
@@ -170,7 +173,7 @@
                                         <div class="col-xxs-12 col-xs-6 mt alternate">
                                             <div class="input-field">
                                                 <div id="contentCheck" style="display: none;">
-                                                <a style="color: black;" href="checkIn.php">
+                                                <a style="color: black;" href="check_in.php">
                                                 <input type="submit" class="btn btn-primary btn-block" id="date-endCheck" ></a>
                                                 
                                                  </input>
@@ -180,6 +183,34 @@
                                     </div>
                                 </div>
 
+
+
+                                <div role="tabpanel" class="tab-pane" id="petcheck">
+                                                <div class="row">
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                    <div class="input-field">
+                                                        <p style="color: black;" >Realíza todos sus papeleos de tu mascota antes del viaje.</p>
+                                                        <p style="color: black;">Ten a mano los documentos de tu mascota.</p>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <input type="checkbox" name="check" id="checkP" value="1" onchange="javascript:mostrarContenidoPet()" onclick="limpiarPet()" />
+                                                <label for="date-start">Estoy de acuerdo con los terminos y condiciones</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxs-12 col-xs-6 mt alternate">
+                                            <div class="input-field">
+                                                <div id="contentPet" style="display: none;">
+                                                <a style="color: black;" href="petcheck.php">
+                                                <input type="submit" class="btn btn-primary btn-block" id="date-endPet" value="PET CHECK"></a>
+                                                
+                                                 </input>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>

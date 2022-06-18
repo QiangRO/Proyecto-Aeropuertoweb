@@ -3,7 +3,10 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center heading-section ">
                 <h3>Planea tu viaje</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni reprehenderit modi sapiente, excepturi doloremque ad placeat et voluptate qui dicta iusto architecto molestias id deserunt sunt non vero, perspiciatis cum?</p>
+                <p>
+                    Planea tu viaje con las diferenes opciones que te mostramos en nuestro aeropuerto
+                    conteniendo informacion importante ara el pasajero y poder comprar boletos para su vuelo.
+                </p>
             </div>
         </div>
         <div class="row row-bottom-padded-md">
@@ -14,18 +17,16 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4>Mejores ofertas, más habilidades</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
+                        <p>Para una mejor experiencia se le muestra nuestras ofertas en vuelos.</p>
                     </div>
                     <div class="col-md-12">
                         <h4>Manténgase al día con las noticias de su aerolínea</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
+                        <p>Podra tener acceso a los comentarios de algunos de nuestros clientes 
+                            que ya utiliz nuestros servicios.</p>
                     </div>
                     <div class="col-md-12">
                         <h4>Experiencia a bordo</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
+                        <p>Su experiencia sera dirigida por nuestros personal.</p>
                     </div>
                 </div>
             </div>
