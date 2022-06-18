@@ -28,7 +28,7 @@
                 <a class="navbar-item" href="tienda.php">Tienda</a>
             </div>
             <div class="navbar-end">
-                <div class="navbar-item">
+                <!-- <div class="navbar-item">
                     <div class="buttons">
                         <a href="ver_carrito.php" class="button is-success">
                             <strong>Ver carrito <?php
@@ -40,7 +40,7 @@
                                                 ?>&nbsp;<i class="fa fa-shopping-cart"></i></strong>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="navbar-item">
                     <div class="buttons">
                         <a target="_blank" rel="noreferrer" href="https://parzibyte.me/l/fW8zGd" class="button is-primary">

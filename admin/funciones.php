@@ -26,7 +26,7 @@ function quitarProductoDelCarrito($idProducto)
 function obtenerProductos()
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada FROM vuelos");
+    $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada, precio FROM vuelos");
     return $sentencia->fetchAll();
 }
 
@@ -74,11 +74,11 @@ function eliminarProducto($numero_vuelo)
     return $sentencia->execute([$numero_vuelo]);
 }
 
-function guardarProducto($codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada)
+function guardarProducto($codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada, $precio)
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->prepare("INSERT INTO vuelos(codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada) VALUES(?, ?, ?, ?, ?, ?, ?)");
-    return $sentencia->execute([$codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada]);
+    $sentencia = $bd->prepare("INSERT INTO vuelos(codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada, precio) VALUES(?, ?, ?, ?, ?, ?, ?, ?)");
+    return $sentencia->execute([$codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada, $precio]);
 }
 
 function obtenerVariableDelEntorno($key)

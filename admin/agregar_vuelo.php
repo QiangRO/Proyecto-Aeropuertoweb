@@ -1,4 +1,4 @@
-<?php require_once "./layout/head.php" ?>
+<?php require_once "../layout/headadmin.php" ?>
 <div class="column" id="content" style="display:none">
     <div class="ui grid">
         <div class="row">
@@ -50,6 +50,12 @@
                     <label for="horallegada">Hora Llegada</label>
                     <div class="control">
                         <input required id="horallegada" class="input" type="time" placeholder="Hora Llegada" name="horallegada">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="precio">precio</label>
+                    <div class="control">
+                        <input required id="precio" class="input" type="number" placeholder="Hora Llegada" name="precio">
                     </div>
                 </div>
                 <!-- <div class="field">

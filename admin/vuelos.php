@@ -22,6 +22,7 @@ $productos = obtenerProductos();
             <th>Fecha de Regreso</th>
             <th>Hora Salida</th>
             <th>Hora Llegada</th>
+            <th>Precio</th>
             <th>Eliminar</th>
           </tr>
         </thead>
@@ -35,6 +36,7 @@ $productos = obtenerProductos();
               <td><?php echo $producto->fecharegreso ?></td>
               <td><?php echo $producto->horasalida ?></td>
               <td><?php echo $producto->horallegada ?></td>
+              <td><?php echo $producto->precio ?></td>
               <td>
                 <form action="eliminar_vuelo.php" method="post">
                   <input type="hidden" name="id_producto" value="<?php echo $producto->id ?>">
