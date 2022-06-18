@@ -1,1 +1,1 @@
-ErrorDocument 404 http://localhost/travel/404error.php
+ErrorDocument 404 http://localhost/proyecto/404error.php

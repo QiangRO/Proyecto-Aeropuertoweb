@@ -20,7 +20,7 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link rel="icon" href="./images/favicon.png">
+	<link rel="icon" href="favicon.png">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -49,24 +49,14 @@
 	<!-- <script src="js/marcasAeropuerto.js"></script> -->
 	<script src="js/marca-aeropuerto.js"></script>
 	<script src="js/datamapa.js"></script>
-	<script src="js/app.js"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 	<!-- Google map api javascript -->
-	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgEpKnBhR574VxDg73mkEjJeuRCTJ77pU&map_ids=3792af100ec9ffce&callback=initMap">
-	</script>
-
-	<!-- Datatables -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css" />
-    <title></title>
-    <style>
-        table.dataTable thead {
-            background: linear-gradient(to right, #0575E6, #00F260);
-            color: white;
-        }
-    </style>
+	<script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgEpKnBhR574VxDg73mkEjJeuRCTJ77pU&map_ids=3792af100ec9ffce&callback=initMap">
+        </script>
 </head>
 
 <body>
@@ -92,8 +82,10 @@
 										<li><a href="TipsEquipaje.php"> Tips de equipaje</a></li>
 									</ul>
 								</li>
-								<li><a href="hotel.php">Hotel</a></li>
+
+								<li><a href="soporte.php">Soporte tecnico</a></li>
 								<li><a href="contacto.php">Contactanos</a></li>
+
 							</ul>
 						</nav>
 					</div>

@@ -84,31 +84,31 @@
 </div>
 <!-- END fh5co-wrapper -->
 <!-- jQuery -->
-<script src="js/jquery.minn.js"></script>
+<script src="../js/jquery.minn.js"></script>
 <!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/sticky.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
+<script src="../js/sticky.js"></script>
 
 <!-- Stellar -->
-<script src="js/jquery.stellar.min.js"></script>
+<script src="../js/jquery.stellar.min.js"></script>
 <!-- Superfish -->
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.js"></script>
+<script src="../js/hoverIntent.js"></script>
+<script src="../js/superfish.js"></script>
 <!-- Magnific Popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/magnific-popup-options.js"></script>
 <!-- Date Picker -->
-<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="../js/bootstrap-datepicker.min.js"></script>
 <!-- CS Select -->
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/selectFx.js"></script>
 
 <!-- Main JS -->
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 <!--    Datatables-->
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
 
@@ -148,20 +148,6 @@
         document.getElementById("date-endCheck").value = "CHECK IN";
     }
 
-
-    function mostrarContenidoPet() {
-        element = document.getElementById("contentPet");
-        check = document.getElementById("checkP");
-        if (check.checked) {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-    function limpiarPet() {
-        document.getElementById("date-endPet").value = "PET CHECK";
-    }
-
     $('.datepicker.entrada').datepicker({
         startDate: '0d',
         datesDisabled: '0d',
@@ -181,8 +167,7 @@
             format: 'yyyy-mm-dd'
         });
 
-    });
-
+    })
 </script>
 </body>
 
