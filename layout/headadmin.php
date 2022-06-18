@@ -1,7 +1,6 @@
 <?php include_once "sesion.php" ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
@@ -12,6 +11,7 @@
     <title>Administrador</title>
     <link href="../css/semantic.min.css" rel="stylesheet" type="text/css" />
     <link href="../css/styleadmin.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="./images/favicon.png">
 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/admin.js"></script>

@@ -1,16 +1,10 @@
-
-<?php require_once "./layout/headBuscarVuelos.php"; ?>
+<?php require_once "headBuscarVuelos.php" ?>
 <?php
-require_once "./funciones.php";
+include_once "funciones.php";
 $productos = obtenerProductos();
 ?>
-<div class="columns">
-    <div class="column">
-        <h2 class="is-size-2">Tienda</h2>
-    </div>
-</div>
+<!-- A PARTIR DE AQUIIII -->
 <?php foreach ($productos as $producto) { ?>
-
     <div class="columns">
         <div class="column is-full">
             <div class="card">
@@ -47,5 +41,4 @@ $productos = obtenerProductos();
         </div>
     </div>
 <?php } ?>
-<?php require_once "./layout/footer.php"; ?>
-
+<?php require_once "footer.php" ?>

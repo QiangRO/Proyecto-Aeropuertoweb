@@ -1,7 +1,7 @@
 
-<?php require_once "./layout/headBuscarVuelos.php"; ?>
+<?php include_once "encabezado.php" ?>
 <?php
-require_once "./funciones.php";
+include_once "funciones.php";
 $productos = obtenerProductos();
 ?>
 <div class="columns">
@@ -10,7 +10,6 @@ $productos = obtenerProductos();
     </div>
 </div>
 <?php foreach ($productos as $producto) { ?>
-
     <div class="columns">
         <div class="column is-full">
             <div class="card">
@@ -47,5 +46,4 @@ $productos = obtenerProductos();
         </div>
     </div>
 <?php } ?>
-<?php require_once "./layout/footer.php"; ?>
-
+<?php include_once "pie.php" ?>

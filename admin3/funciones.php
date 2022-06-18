@@ -26,10 +26,9 @@ function quitarProductoDelCarrito($idProducto)
 function obtenerProductos()
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada FROM vuelos");
+    $sentencia = $bd->query("SELECT id, nombre, descripcion, precio FROM productos");
     return $sentencia->fetchAll();
 }
-
 function productoYaEstaEnCarrito($idProducto)
 {
     $ids = obtenerIdsDeProductosEnCarrito();
@@ -67,18 +66,18 @@ function iniciarSesionSiNoEstaIniciada()
     }
 }
 
-function eliminarProducto($numero_vuelo)
+function eliminarProducto($id)
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->prepare("DELETE FROM vuelos WHERE id = ?");
-    return $sentencia->execute([$numero_vuelo]);
+    $sentencia = $bd->prepare("DELETE FROM productos WHERE id = ?");
+    return $sentencia->execute([$id]);
 }
 
-function guardarProducto($codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada)
+function guardarProducto($nombre, $precio, $descripcion)
 {
     $bd = obtenerConexion();
-    $sentencia = $bd->prepare("INSERT INTO vuelos(codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada) VALUES(?, ?, ?, ?, ?, ?, ?)");
-    return $sentencia->execute([$codigovuelo, $origen, $destino, $fechasalida, $fecharegreso, $horasalida, $horallegada]);
+    $sentencia = $bd->prepare("INSERT INTO productos(nombre, precio, descripcion) VALUES(?, ?, ?)");
+    return $sentencia->execute([$nombre, $precio, $descripcion]);
 }
 
 function obtenerVariableDelEntorno($key)
@@ -99,7 +98,6 @@ function obtenerVariableDelEntorno($key)
         throw new Exception("La clave especificada (" . $key . ") no existe en el archivo de las variables de entorno");
     }
 }
-
 function obtenerConexion()
 {
     $password = obtenerVariableDelEntorno("MYSQL_PASSWORD");

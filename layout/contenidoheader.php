@@ -149,7 +149,7 @@
                                             </section>
                                         </div>
                                         <div class="col-xs-12">
-                                            <a href="buscarVuelo.php"><input type="submit" class="btn btn-primary btn-block" value="Buscar vuelo"></a>
+                                            <a href="./admin3/tienda.php"><input type="submit" class="btn btn-primary btn-block" value="Buscar vuelo"></a>
 
                                         </div>
                                     </div>

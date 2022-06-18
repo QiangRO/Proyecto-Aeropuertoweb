@@ -25,8 +25,11 @@ function quitarProductoDelCarrito($idProducto)
 
 function obtenerProductos()
 {
+    // $bd = obtenerConexion();
+    // $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada FROM vuelos");
+    // return $sentencia->fetchAll();
     $bd = obtenerConexion();
-    $sentencia = $bd->query("SELECT id, codigovuelo, origen, destino, fechasalida, fecharegreso, horasalida, horallegada FROM vuelos");
+    $sentencia = $bd->query("SELECT id, nombre, descripcion, precio FROM productos");
     return $sentencia->fetchAll();
 }
 
@@ -99,7 +102,6 @@ function obtenerVariableDelEntorno($key)
         throw new Exception("La clave especificada (" . $key . ") no existe en el archivo de las variables de entorno");
     }
 }
-
 function obtenerConexion()
 {
     $password = obtenerVariableDelEntorno("MYSQL_PASSWORD");
